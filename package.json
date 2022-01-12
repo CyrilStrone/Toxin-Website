@@ -20,6 +20,7 @@
     },
     "homepage": "https://github.com/CyrilStrone/Toxin-Website#readme",
     "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
         "babel-core": "^6.26.3",
         "babel-loader": "^8.2.3",
         "babel-preset-env": "^1.7.0",
@@ -35,6 +36,7 @@
         "webpack-dev-server": "^4.7.3"
     },
     "dependencies": {
+        "chart": "^0.1.2",
         "jquery": "^3.6.0",
         "react": "^17.0.2",
         "style-loader": "^3.3.1",

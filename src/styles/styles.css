@@ -1064,6 +1064,13 @@ body {
 .header-form__nav-icons_theme-standart {
     color: rgba(31, 32, 65, 0.5);
     vertical-align: middle;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 .header-form__button-all_position-standart {
