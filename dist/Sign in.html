@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+
+
 <script defer src="main.bundle.js"></script></head>
 
 <body>
@@ -46,105 +48,44 @@
 
         </div>
     </header>
-    <div class="landing-background landing-background_theme-standart landing-background_position-standart">
-        <div class="landing-page landing-page_theme-standart landing-page_position-standart ">
-            <div class="landing-page__content landing-page__content_theme-standart landing-page__content_position-standart">
-                <div class="landing-page__content-title landing-page__content-title_theme-standart landing-page__content-title_position-standart">
-                    <a>Найдём номера под ваши пожелания</a>
+
+    <div class="signin-page signin-page_position-standart signin-page_theme-standart">
+        <div class="signin-page__content signin-page__content_position-standart signin-page__content_theme-standart">
+            <div class="signin-page__content__title signin-page__content__title_position-standart signin-page__content__title_theme-standart">
+                <a>Войти</a>
+            </div>
+            <div class="signin-page__content__field signin-page__content__field_position-standart signin-page__content__field_theme-standart">
+                <div>
+                    <label for="id_firstname"></label> <input class="signin-page__content__field__label signin-page__content__field__label_position-standart ui-kit__text-filed_theme-standart" type="text" name="firstname" placeholder="Имя" autocomplete="firstname"
+                        maxlength="326" id="id_firstname">
                 </div>
-                <div class="landing-page__content-field landing-page__content-field_theme-standart landing-page__content-field_position-standart">
-                    <div class="landing-page__content-field__block-min_position-standart ui-kit__date-dropdown">
-                        <div class="ui-kit__date-dropdown__title ">
-                            <a>Прибытие</a>
-                        </div>
+                <div>
+                    <label for="id_secondname"></label> <input class="signin-page__content__field__label signin-page__content__field__label_position-standart ui-kit__text-filed_theme-standart" type="text" name="secondname" placeholder="Фамилия" maxlength="326"
+                        autocomplete="secondname" id="id_secondname">
+                </div>
 
-                        <div>
-                            <label for="id_firstname"></label> <input class="ui-kit__date-dropdown__label" placeholder="ДД.ММ.ГГГГ" id="datepicker">
-                        </div>
-                        <span class="ui-kit__date-dropdown__icons">expand_more</span>
+
+                <div class="signin-page__content__field__button signin-page__content__field__button_position-standart signin-page__content__field__button_theme-standart">
+                    <div>
+                        <button class="ui-kit__buttons-background">ВОЙТИ</button>
                     </div>
 
-                    <div class="landing-page__content-field__block-min_position-last ui-kit__date-dropdown">
-                        <div class="ui-kit__date-dropdown__title">
-                            <a>Выезд</a>
-                        </div>
-                        <div>
-                            <label for="id_firstname"></label> <input class="ui-kit__date-dropdown__label" placeholder="ДД.ММ.ГГГГ" id="datepicker">
-                        </div>
-                        <span class="ui-kit__date-dropdown__icons">expand_more</span>
+                    <span class="ui-kit__buttons-background-icons ">arrow_forward</span>
+
+                </div>
+                <div class="signin-page__content__field__login signin-page__content__field__login_position-standart signin-page__content__field__login_theme-standart">
+                    <div class="signin-page__content__field__login__h3 signin-page__content__field__login__h3_position-standart signin-page__content__field__login__h3_theme-standart">
+                        <a>Нет аккаунта на Toxin?</a>
                     </div>
+                    <a href="Registration.html">
+                        <button class="signin-page__content__field__login__buttin signin-page__content__field__login__buttin_position-standart ui-kit__buttons-border">СОЗДАТЬ</button>
+                    </a>
 
-
-
-
-
-
-                    <div class="landing-page__content-field__block-max landing-page__content-field__block-max_position-standart ui-kit__dropdown-general">
-                        <div class="ui-kit__dropdown__title">
-                            <a>Гости</a>
-                        </div>
-                        <button onclick="myFunctiondropdown()" class="ui-kit__dropdown  ui-kit__dropdown_theme-max ">Сколько гостей</button>
-                        <div id="myDropdown" class="ui-kit__dropdown-content ui-kit__dropdown-content_theme-max">
-                            <a href="#">
-                                <div class="ui-kit__dropdown-content__text">
-                                    взрослые
-                                </div>
-                                <select name="room" id="room" class="select-step">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                              </select>
-                            </a>
-                            <a href="#">
-                                <div class="ui-kit__dropdown-content__text">
-                                    дети
-                                </div>
-                                <select name="room" id="room" class="select-step">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                              </select>
-                            </a>
-                            <a href="#">
-                                <div class="ui-kit__dropdown-content__text">
-                                    младенцы
-                                </div>
-                                <select name="room" id="room" class="select-step">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </select>
-                            </a>
-                            <a href="#">очистить</a>
-                            <a onclick="myFunctiondropdowndisplaynone()" href="#">применить</a>
-                        </div>
-                        <span class="ui-kit__dropdown__icon ui-kit__dropdown__icon_position-max">expand_more</span>
-                    </div>
-
-
-
-
-                    <div class="landing-page__content-field__button-all landing-page__content-field__button-all_position-standart ui-kit__buttons-background__general">
-                        <div>
-                            <button class="ui-kit__buttons-background">ПОДОБРАТЬ НОМЕР</button>
-                        </div>
-
-                        <span class="ui-kit__buttons-background-icons">arrow_forward</span>
-
-                    </div>
 
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <footer>

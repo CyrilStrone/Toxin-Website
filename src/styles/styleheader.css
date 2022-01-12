@@ -38,6 +38,7 @@ body {
 .header-form__logo_theme-standart {
     width: 105.69px;
     height: 40px;
+    background-image: url("../styles/image/Logo.svg");
 }
 
 .header-form__nav {

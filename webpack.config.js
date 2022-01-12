@@ -12,10 +12,58 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'webpack',
+            title: 'Form Elements',
+            template: path.resolve(__dirname, './src/pages/Form Elements.html'), // шаблон
+            filename: 'Form Elements.html', // название выходного файла
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Cards',
+            template: path.resolve(__dirname, './src/pages/Cards.html'), // шаблон
+            filename: 'Cards.html', // название выходного файла
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Landing Page',
             template: path.resolve(__dirname, './src/pages/Landing Page.html'), // шаблон
             filename: 'Landing Page.html', // название выходного файла
         }),
+        new HtmlWebpackPlugin({
+            title: 'Registration',
+            template: path.resolve(__dirname, './src/pages/Registration.html'), // шаблон
+            filename: 'Registration.html', // название выходного файла
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Room details',
+            template: path.resolve(__dirname, './src/pages/Room details.html'), // шаблон
+            filename: 'Room details.html', // название выходного файла
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Searh room',
+            template: path.resolve(__dirname, './src/pages/Searh room.html'), // шаблон
+            filename: 'Searh room.html', // название выходного файла
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Sign in',
+            template: path.resolve(__dirname, './src/pages/Sign in.html'), // шаблон
+            filename: 'Sign in.html', // название выходного файла
+        }),
         new CleanWebpackPlugin(),
     ],
+    module: {
+        rules: [{
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                loader: 'file-loader'
+
+            },
+
+
+
+        ],
+    },
+
+
+
 }

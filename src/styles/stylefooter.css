@@ -60,8 +60,10 @@
 }
 
 .footer-form__widgets-content__logo_theme-standart {
+    display: inline-block;
     width: 105.69px;
     height: 40px;
+    background: url("../styles/image/Logo.svg");
 }
 
 .footer-form__widgets-content__logo-title_theme-standart {

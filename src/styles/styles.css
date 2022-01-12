@@ -807,8 +807,10 @@ body {
 }
 
 .footer-form__widgets-content__logo_theme-standart {
+    display: inline-block;
     width: 105.69px;
     height: 40px;
+    background: url("../styles/image/Logo.svg");
 }
 
 .footer-form__widgets-content__logo-title_theme-standart {
@@ -1015,6 +1017,7 @@ body {
 .header-form__logo_theme-standart {
     width: 105.69px;
     height: 40px;
+    background-image: url("../styles/image/Logo.svg");
 }
 
 .header-form__nav {
@@ -1278,7 +1281,7 @@ input::-webkit-calendar-picker-indicator {
 
 @font-face {
     font-family: 'Material Icons';
-    src: url(https://fonts.gstatic.com/s/materialicons/v120/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+    src: url("https://fonts.gstatic.com/s/materialicons/v120/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2") format('woff2');
 }
 
 .ui-kit__cards__reservation {
@@ -3191,11 +3194,11 @@ a:visited.ui-button,
 .ui-widget-content .ui-icon {
     background-position-x: -96px -32px;
     background-position-y: -106px -42px;
-    background-image: url("images/ui-icons_444444_256x240.png");
+    background-image: url('../styles/image/ui-icons_444444_256x240.png');
 }
 
 .ui-widget-header .ui-icon {
-    background-image: url("images/leftcalendar.png");
+    background-image: url("../styles/image/leftcalendar.png");
     background-position: right bottom;
     /* Положение фона */
     background-repeat: no-repeat;
@@ -3206,21 +3209,21 @@ a:visited.ui-button,
 
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
-    background-image: url("images/ui-icons_ffffff_256x240.png");
+    background-image: url("../styles/image/ui-icons_ffffff_256x240.png");
 }
 
 .ui-state-highlight .ui-icon,
 .ui-button .ui-state-highlight.ui-icon {
-    background-image: url("images/ui-icons_777620_256x240.png");
+    background-image: url("../styles/image/ui-icons_777620_256x240.png");
 }
 
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-    background-image: url("images/ui-icons_cc0000_256x240.png");
+    background-image: url("../styles/image/ui-icons_cc0000_256x240.png");
 }
 
 .ui-button .ui-icon {
-    background-image: url("images/ui-icons_777777_256x240.png");
+    background-image: url("../styles/image/ui-icons_777777_256x240.png");
 }
 
 
