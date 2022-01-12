@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.header-form_theme-standart {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    width: 1440px;
+    height: 70px;
+}
+
+.header-form_position-standart {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    top: 0px;
+}
+
+.header-form__logo_theme-standart {
+    cursor: pointer;
+}
+
+.header-form__element_position-standart {
+    float: right;
+}
+
+.header-form__logo_position-standart {
+    box-sizing: border-box;
+    position: static;
+    float: left;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+
+.header-form__logo_theme-standart {
+    width: 105.69px;
+    height: 40px;
+}
+
+.header-form__nav {
+    text-align: center;
+    position: static;
+    display: inline-block;
+    margin-top: 26px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.header-form__nav_theme-standart {
+    height: 21px;
+}
+
+.header-form__nav a {
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+    cursor: pointer;
+}
+
+.header-form__nav a:nth-child(2) {
+    margin-right: 0px;
+}
+
+.header-form__nav a:nth-child(6) {
+    margin-right: 0px;
+}
+
+.header-form__nav a:nth-child(7) {
+    margin-right: 0px;
+}
+
+.header-form__nav-icons_position-standart {}
+
+.header-form__nav-icons_theme-standart {
+    color: rgba(31, 32, 65, 0.5);
+    vertical-align: middle;
+}
+
+.header-form__button-all_position-standart {
+    position: static;
+    margin-top: 18px;
+    margin-right: 140px;
+    display: inline-block;
+    padding: 0;
+}
+
+.header-form__button-all_theme-standart {
+    width: 310px;
+}
+
+.header-form__button-two_position-standart {}
+
+.header-form__button-two_theme-standart {
+    width: 196px;
+    height: 34px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.header-form__button-one_position-standart {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-form__button-one_theme-standart {
+    width: 87px;
+    height: 34px;
+    background: none;
+    border-radius: 22px;
+    border: 2px solid;
+    border: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}

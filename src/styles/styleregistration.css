@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.registration-page_position-standart {
+    position: static;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registration-page_theme-standart {
+    height: 754px;
+    width: 100%;
+    background: url("https://lh3.googleusercontent.com/LE42d4TlpaBCnGvkT6DeWLF4qHJ6tRJdPLXBEvUhalDvp3fTue6CpwEoH496mXeqUDEH1Vz91Skv9mF4kQ5gCTEXVVDoeTbkpALKH47QXIWPCP2qpBdD3pIw0ww3hGHHKTGMy9K1Gw=w2400?source=screenshot.guru") no-repeat center center;
+    background-size: cover;
+}
+
+.registration-page__content_position-standart {
+    position: absolute;
+    margin-top: 19px;
+    left: 50%;
+    transform: translate( -50%);
+}
+
+.registration-page__content_theme-standart {
+    width: 380px;
+    height: 646px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 40px 30px;
+}
+
+.registration-page__content__title_position-standart {}
+
+.registration-page__content__title_theme-standart {
+    width: 320px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1F2041;
+}
+
+.registration-page__content__field-radio_position-standart {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.registration-page__content__field_position-standart {
+    margin-top: 10px;
+}
+
+.registration-page__content__field-block_position-standart {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registration-page__content__field-block_position-down {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+}
+
+.registration-page__content__field-h1_theme-standart {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+
+.registration-page__content__field-h1_position-standart {
+    margin-top: 20px;
+}
+
+.field-content-registration-nonfiction {
+    margin-top: -5px;
+}
+
+.registration-page__content__field-block-switch_position {
+    margin-top: 10px;
+}
+
+.registration-page__content__field-button-one_position-standart {
+    margin-top: 20px;
+}
+
+.registration-page__content__field-button-two_position-standart {
+    position: relative;
+    float: right;
+}
+
+.registration-page__content__field-down_position-standart {
+    margin-top: 30px;
+}
+
+.registration-page__content__field-h3_position-standart {
+    margin-top: 12px;
+    position: relative;
+    float: left;
+}
+
+.registration-page__content__field-h3_theme-standart {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.registration-page__content__field input[type~="text"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.registration-page__content__field input[type~="date"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.registration-page__content__field input[type~="email"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.registration-page__content__field input[type~="password"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}

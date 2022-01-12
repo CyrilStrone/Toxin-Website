@@ -1,0 +1,37 @@
+{
+    "name": "toxin-website",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/index.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "watch": "webpack --mode development --watch",
+        "start": "webpack-dev-server --mode development --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CyrilStrone/Toxin-Website.git"
+    },
+    "author": "Cyril Strone <cyrilstrone@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CyrilStrone/Toxin-Website/issues"
+    },
+    "homepage": "https://github.com/CyrilStrone/Toxin-Website#readme",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.2.3",
+        "babel-preset-env": "^1.7.0",
+        "clean-webpack-plugin": "^4.0.0",
+        "html-webpack-plugin": "^5.5.0",
+        "webpack": "^5.66.0",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.7.3"
+    },
+    "dependencies": {
+        "css-loader": "^6.5.1",
+        "jquery": "^3.6.0",
+        "style-loader": "^3.3.1"
+    }
+}
