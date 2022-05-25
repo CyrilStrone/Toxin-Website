@@ -4,7 +4,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry: {
-        main: path.resolve(__dirname, './src/index.js'),
+        main: './src/index.js',
+        style: './src/style.js',
+        date: './src/js/date-dropdown.js',
+        dateru: './src/js/date-dropdown-ru.js'
     },
     output: {
         path: path.resolve(__dirname, './dist'),
@@ -24,7 +27,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Landing Page',
             template: path.resolve(__dirname, './src/pages/Landing Page.html'), // шаблон
-            filename: 'Landing Page.html', // название выходного файла
+            filename: 'index.html', // название выходного файла
         }),
         new HtmlWebpackPlugin({
             title: 'Registration',
